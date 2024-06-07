@@ -1,0 +1,491 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:200,300,700');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "FiraGO";
+    font-weight: 300;
+    color: #fff;
+    padding: 0;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.header__bg {
+    max-width: 1920px;
+    height: 1080px;
+    background-image: url('../assets/main.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 220px;
+}
+
+.header {
+    display: flex;
+    height: 84px;
+    justify-content: space-between;
+    padding: 15px 90px;
+    background-color: transparent;
+}
+
+.header__logo img {
+    width: 56px;
+    height: 56px;
+}
+
+.header__nav {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    align-items: center;
+}
+
+.header__nav a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.header__nav select {
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+}
+
+
+.meeting {
+    max-width: 912px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 32px;
+    align-items: center;
+}
+
+.meeting__typo h1 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.meeting__apply {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #fff;
+    gap: 30px;
+}
+
+.meeting__apply span {
+    display: block;
+}
+
+.meeting__apply button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 24px;
+    color: #fff;
+    font-size: inherit;
+}
+
+.brands {
+    background-color: #F6F6F6;
+    padding: 46px 0 125px 0;
+}
+
+.brands__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 62px;
+    width: 1500px;
+}
+
+.brands__typo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    color: #565656;
+}
+
+
+.brands__h2 h2 {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 6px;
+    font-weight: 200;
+}
+
+.underline__h {
+    display: flex;
+    flex-direction: column;
+}
+
+.underline__h span {
+    display: block;
+    width: 107px;
+    color: transparent;
+    border: 1px solid #0057FF;
+    margin: 0;
+}
+
+
+.brands__typo p {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #000;
+    width: 520px;
+}
+
+
+.brands__img {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+
+.brands__img div {
+    width: 230px;
+    height: 230px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.brand__img {
+    object-fit: cover;
+    max-width: 70%;
+    max-height: 80%;
+}
+
+/* .brand__mccan {
+    max-width: 164px;
+    max-height: 53px;
+}
+
+.brand__um {
+    max-width: 107px;
+    max-height: 107px;
+}
+
+.brand__kedi {
+    max-width: 206px;
+    max-height: 31px;
+}
+
+.brand__initiative {
+    max-width: 160px;
+    max-height: 55px;
+}
+
+.brand__stv {
+    max-width: 94px;
+    max-height: 60px;
+}
+
+.brand__adssprint {
+    max-width: 171px;
+    max-height: 61px;
+} */
+
+.projects {
+    background-color: #0057FF;
+    height: 102px;
+}
+
+.projects__container {
+    display: flex;
+    flex-direction: row;
+    width: 610px;
+    margin: 0 auto;
+    gap: 136px;
+    padding: 8px 0 16px 0;
+}
+
+.projects__div h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.projects__div h5 {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.partners {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.partners__logos {
+    display: grid;
+    grid-template-columns: repeat(10, 138px);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.partners__logos div {
+    width: 138px;
+    height: 138px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partners__h2 {
+    color: #565656;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.partners__typo {
+    align-items: center;
+}
+
+.contact_us {
+    background-color: #fff;
+}
+
+.contact_us__container {
+    width: 830px;
+    display: flex;
+    flex-direction: row;
+    gap: 209px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.contact_us__typo p {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.contact_us__btn button{
+    width: 200px;
+    background: #0057FF;
+    height: 45px;
+    color: #FFFFFF;
+}
+
+.footer {
+    background-color: #242424;
+}
+
+.footer__container {
+    width: 1239px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin: 52px auto;
+}
+
+.footer__container div {
+    width: 210px;
+}
+
+
+.footer__about {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+}
+
+.about__typo {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.about__media {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.about__media a {
+    width: max-content;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 12px;
+}
+
+.footer__column h4 {
+    font-weight: 700;
+}
+
+.footer__column h5 {
+    font-weight: 300;
+    margin: 0;
+}
+
+.footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__send div {
+   width: max-content;
+}
+
+
+
+.send__img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    gap: 11px;
+}
+
+.send__img img {
+    vertical-align: middle;
+}
+
+
+.send__btn {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    height: 36px;
+}
+
+.send__btn input {
+    width: 215px;
+    background-color: #fff;
+    color: #A7A7A7;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.send__btn button {
+    background-color: #0057FF;
+    width: 47px;
+}
